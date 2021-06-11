@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { parseArgs, spawn } = require('..')
+const { parseArgs, run } = require('..')
 
 commands = parseArgs()
   .map(args => ({
@@ -9,4 +9,4 @@ commands = parseArgs()
   }))
   .filter(({args}) => args[0])
 
-spawn(commands)
+run(commands)

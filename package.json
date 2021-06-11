@@ -1,13 +1,13 @@
 {
-  "name": "race-cmd",
+  "name": "allrun",
   "version": "1.0.0",
-  "description": "Execute multiple commands in parallel. The first command that exits, kills the others.",
+  "description": "Execute multiple commands as parallel sub-processes. Optionally, first one finished terminates the rest.",
   "bin": {
-    "racecmd": "bin/race-cmd.js",
-    "racenpm": "bin/race-npm.js",
-    "racenode": "bin/race-node.js"
+    "allcmd": "bin/all-cmd.js",
+    "allnpm": "bin/all-npm.js",
+    "allnode": "bin/all-node.js"
   },
-  "keywords": ["race", "parallel", "concurrent", "command", "cli"],
+  "keywords": ["run", "execute", "race", "parallel", "concurrent", "command", "cli"],
   "author": "Marc Ablay",
   "license": "ISC"
 }
