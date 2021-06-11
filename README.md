@@ -1,6 +1,6 @@
 # AllRun
 
-CLI polyfill for `sh -c 'cmd1 & cmd2 & ...`  
+CLI polyfill for `sh -c 'cmd1 & cmd2 & ...'`  
 Works with linux, MacOS and Windows.
 
 Execute multiple commands in parallel.  
