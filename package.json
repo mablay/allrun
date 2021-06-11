@@ -7,6 +7,10 @@
     "allnpm": "bin/all-npm.js",
     "allnode": "bin/all-node.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mablay/allrun.git"
+  },
   "keywords": ["run", "execute", "race", "parallel", "concurrent", "command", "cli"],
   "author": "Marc Ablay",
   "license": "ISC"
