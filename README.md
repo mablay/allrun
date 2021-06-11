@@ -40,8 +40,8 @@ Notice how `--` is used to separate commands.
 Run two parallel cli commands in verbose mode
 ```sh
 allcmd -v sleep 3 -- sleep 1 
-Spawned [24480]: sleep  [ '3' ]
-Spawned [24481]: sleep  [ '1' ]
+Spawned [24480] sleep  [ '3' ]
+Spawned [24481] sleep  [ '1' ]
 Process [24481] terminated after 1012ms
 Process [24480] terminated after 3004ms
 ```
@@ -49,8 +49,8 @@ Process [24480] terminated after 3004ms
 Same as before, now the first finished process terminates the rest.
 ```sh
 allcmd -kv sleep 1 -- sleep 10 
-Spawned [24441]: sleep  [ '10' ]
-Spawned [24442]: sleep  [ '1' ]
+Spawned [24441] sleep  [ '10' ]
+Spawned [24442] sleep  [ '1' ]
 Process [24442] terminated after 1006ms
 Process [24441] terminated after 1008ms
 ```
