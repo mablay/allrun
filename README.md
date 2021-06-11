@@ -16,7 +16,7 @@ npm i -g allrun
 ```
 
 ## Synopsis
-```sh
+```
 Synopsis
    usage: allcmd [-k] [-v] <command>[ <argument>] [-- <command>[ <argument>]]
    usage: allnpm [-k] [-v] <script>[ <argument>] [-- <script>[ <argument>]]
