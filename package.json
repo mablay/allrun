@@ -1,0 +1,13 @@
+{
+  "name": "race-cmd",
+  "version": "1.0.0",
+  "description": "Execute multiple commands in parallel. The first command that exits, kills the others.",
+  "bin": {
+    "racecmd": "bin/race-cmd.js",
+    "racenpm": "bin/race-npm.js",
+    "racenode": "bin/race-node.js"
+  },
+  "keywords": ["race", "parallel", "concurrent", "command", "cli"],
+  "author": "Marc Ablay",
+  "license": "ISC"
+}
