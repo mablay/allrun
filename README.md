@@ -1,4 +1,4 @@
-# Race Commands
+# AllRun
 
 Execute multiple commands in parallel.  
 Use `ctrl`+`c` to terminate them.  
