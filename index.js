@@ -68,7 +68,7 @@ function run (commands) {
       detached: false,
       stdio: 'inherit'
     })
-    verbose && console.log(`Spawned [${proc.pid}]: ${cmd} `, args)
+    verbose && console.log(`Spawned [${proc.pid}] ${cmd} `, args)
     proc.on('close', () => {
       verbose && console.log(`Process [${proc.pid}] terminated after ${Date.now()-start}ms`)
       if (kill) {
